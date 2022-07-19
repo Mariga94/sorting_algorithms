@@ -31,5 +31,6 @@ void selection_sort(int *array, size_t size)
 				k = j;
 		}
 		swap(&array[i], &array[k]);
+		print_array(array, size);
 	}
 }
